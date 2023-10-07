@@ -4,7 +4,9 @@ import Todo from '../Todo/Todo';
 import styles from './TodoList.module.css';
 
 export default function TodoList({ filter }) {
-  const [todos, setTodos] = useState(readTodos);
+  // const [todos, setTodos] = useState(readTodos);
+  // 초기값이 필요할 때'만' 함수 호출해서 읽어오도록 수정
+  const [todos, setTodos] = useState(() => readTodos());
 
   const handleAdd = (todo) => setTodos([...todos, todo]);
   const handleUpdate = (updated) =>
