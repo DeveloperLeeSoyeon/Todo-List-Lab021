@@ -1,5 +1,6 @@
 # :ship:Todo List For Lab021
-![todolist](https://github.com/DeveloperLeeSoyeon/Todo-List/assets/145194133/48b35f5e-2790-4f13-ac68-4b172825dc5e)
+![프로젝트_Todo List](https://github.com/DeveloperLeeSoyeon/Todo-List-Lab021/assets/145194133/707a6dd9-b37c-4322-9ae1-412d1ced48f7)
+
 <br/><br/><br/>
 ## 📢 Introduction
 - React 투두 리스트 구현 
